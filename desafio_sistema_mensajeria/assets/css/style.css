@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    
+}
+
+
+h3{
+    font-family: Roboto ;
+    font-size: 1rem ;
+    color: black;
+    margin: 0;
+}
+
+.menu_lateral{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A491D2;
+    margin: 70px;
+    border: 1px solid #bec1bb; 
+    
+    
+    
+}
+
+.menu_lateral img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+
+.usuario_activo{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4e;
+    border: 1px solid #bec1bb; 
+}
+
+.maria{
+    display: flex;
+    padding: 20px;
+    border: 1px solid #bec1bb; 
+}
+
+.maria img{
+    margin: 5px;
+}
+
+.maria div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hamburguer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px;
+} 
+
+.usuarios{
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    border-bottom: 1px solid #bec1bb;   
+}
+
+#usuaria_maria{
+    border: 1px solid white ;
+}
+
+
+.networking{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    text-align: center;
+    background-color: #e8ebe4;
+    padding: 0px;
+    align-items: center;
+}
+
+
+.networking img{ 
+    width: 924px;
+    margin: 20px;
+    padding-top: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
